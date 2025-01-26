@@ -1,0 +1,38 @@
+#system
+.DS_Store
+
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+runclient
+logs
+/assets/
+
+# Files from Forge MDK
+forge*changelog.txt
+/src/generated/
+
+#vscode
+.vscode
+
+# Don't ignore bin from scripts
+!/src/main/scripts/bin/
