@@ -1,4 +1,6 @@
 {
   "item.lcjsg.stargate_operations_module": "Stargate Card",
-  "item.lcjsg.stargate_operations_module.desc": "Stargate Controller Card"
+  "item.lcjsg.stargate_operations_module.desc": "Stargate Controller Card",
+
+  "manual.lcjsg.items": "LC & JSG"
 }
