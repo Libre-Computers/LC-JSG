@@ -41,7 +41,7 @@ public final class StargateOperationsModuleDevice extends AbstractItemRPCDevice 
 
     public StargateOperationsModuleDevice(final ItemStack identity, final BlockEntity deviceTile) {
         super(identity, "stargate");
-        this.deviceTile = (StargateClassicBaseBE)deviceTile;
+        this.deviceTile = deviceTile;
     }
 
     @Callback(name = "getOpenedTime")
