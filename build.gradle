@@ -139,7 +139,7 @@ minecraft {
             property "forge.logging.console.level", "debug"
 
             mods {
-                librecomponents {
+                lcjsg {
                     source sourceSets.main
                 }
             }
@@ -147,18 +147,18 @@ minecraft {
 
         client {
             workingDirectory project.file("runclient")
-            property "forge.enabledGameTestNamespaces", "librecomponents"
+            property "forge.enabledGameTestNamespaces", "lcjsg"
         }
 
         server {
             workingDirectory project.file("run")
-            property "forge.enabledGameTestNamespaces", "librecomponents"
+            property "forge.enabledGameTestNamespaces", "lcjsg"
             arg "--nogui"
         }
 
         gameTestServer {
             workingDirectory project.file('run')
-            property "forge.enabledGameTestNamespaces", "librecomponents"
+            property "forge.enabledGameTestNamespaces", "lcjsg"
         }
 
         data {
