@@ -180,14 +180,14 @@ jar {
     manifest {
         attributes([
             "FMLAT"                   : "accesstransformer.cfg",
-            "Specification-Title"     : "lsjsg",
+            "Specification-Title"     : "lcjsg",
             "Specification-Vendor"    : "The Realm 18 Studios",
             "Specification-Version"   : "1",
             "Implementation-Title"    : project.name,
             "Implementation-Version"  : "${semver}",
             "Implementation-Vendor"   : "The Realm 18 Studios",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
-            "MixinConfigs"            : "mixins.ld.json",
+            "MixinConfigs"            : "mixins.lcjsg.json",
             "ContainedDeps"           : "commons-collections4-4.4.jar"
         ])
     }

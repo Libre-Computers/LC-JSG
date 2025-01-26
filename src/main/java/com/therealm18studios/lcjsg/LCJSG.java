@@ -8,10 +8,10 @@ import li.cil.oc2.api.bus.device.provider.ItemDeviceProvider;
 import net.minecraftforge.registries.DeferredRegister;
 
 
-@Mod("lsjsg")
+@Mod("lcjsg")
 public class LCJSG {
     public LCJSG() {
-        EventBuses.registerModEventBus("lsjsg", FMLJavaModLoadingContext.get().getModEventBus());
+        EventBuses.registerModEventBus("lcjsg", FMLJavaModLoadingContext.get().getModEventBus());
         Items.initialize();
         DeferredRegister<ItemDeviceProvider> registry;
         try {
